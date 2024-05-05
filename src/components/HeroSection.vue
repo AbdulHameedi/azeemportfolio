@@ -1,6 +1,6 @@
 <script>
 import { defineComponent } from 'vue';
-import HeroSection from './HeroSection.vue'
+import NavBar from './NavBar.vue'
 
 export default defineComponent({
     data(){
@@ -9,14 +9,14 @@ export default defineComponent({
         }
     },
     components:{
-        HeroSection
+        NavBar
     }
 })
 </script>
 <template>
-      <div class="bg-[#2F2F2F]">
-        <HeroSection />
-      </div>
+      <main class="p-20 py-10">
+        <NavBar />
+      </main>
 </template>
 
 
