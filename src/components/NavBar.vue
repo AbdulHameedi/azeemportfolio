@@ -10,12 +10,12 @@ export default defineComponent({
 })
 </script>
 <template>
-    <nav class="flex items-center justify-between">
-            <div class="text-white flex gap-3 items-center font-sans">
+    <nav class="flex items-center justify-between mb-16">
+            <div class="text-white flex gap-3 items-center font-sans cursor-pointer">
                 <img src="../assets/logo.png" alt="logo">
                 <p class="font-extrabold text-xl max-w-[145px]">Ayomide Akanji</p>
             </div>
-            <div class="flex gap-10 items-center text-white text-base">
+            <div class="flex gap-10 items-center text-white text-base cursor-pointer">
                 <p>Work</p>
                 <p>About</p>
                 <p>Contact</p>
