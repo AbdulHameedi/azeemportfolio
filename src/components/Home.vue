@@ -14,7 +14,7 @@ export default defineComponent({
 })
 </script>
 <template>
-      <div class="bg-[#2F2F2F]">
+      <div>
         <HeroSection />
       </div>
 </template>
