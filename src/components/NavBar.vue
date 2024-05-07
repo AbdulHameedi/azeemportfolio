@@ -22,5 +22,3 @@ export default defineComponent({
             </div>
         </nav>
 </template>
-
-

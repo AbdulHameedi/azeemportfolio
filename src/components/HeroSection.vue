@@ -26,7 +26,7 @@ export default defineComponent({
 })
 </script>
 <template>
-      <main class="p-20 py-10 relative z-20">
+    <main class="p-24 py-10 relative z-30 heroVideo">
         <NavBar />
         <div class="max-w-[90%] mb-8">
             <p class="text-white font-extrabold text-8xl tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
@@ -36,8 +36,9 @@ export default defineComponent({
             <svg v-if="isPlaying" class="rounded text-[#2F2F2F]" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path fill="currentColor" d="M14 19V5h4v14zm-8 0V5h4v14z"/></svg>
             <svg v-else class="rounded text-[#2F2F2F]" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path fill="currentColor" d="M8 19V5l11 7z"/></svg>
         </div>
-      </main>
-      <video class="absolute top-0" ref="video" src="../assets/heroVideo.mp4" loop muted></video>
+    </main>
+
+    <video class="absolute top-0 right-0 left-0 heroVideo" ref="video" src="../assets/heroVideo.mp4" loop muted></video>
 </template>
 <style scoped>
 .zigzagImage{
@@ -50,6 +51,9 @@ export default defineComponent({
     }to{
         transform: rotate(20deg);
     }
+}
+.heroVideo{
+    height: calc(100vh);
 }
 </style>
 

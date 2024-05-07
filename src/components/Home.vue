@@ -1,6 +1,7 @@
 <script>
 import { defineComponent } from 'vue';
 import HeroSection from './HeroSection.vue'
+import Project from './Projects.vue'
 
 export default defineComponent({
     data(){
@@ -9,13 +10,15 @@ export default defineComponent({
         }
     },
     components:{
-        HeroSection
+        HeroSection,
+        Project
     }
 })
 </script>
 <template>
       <div>
         <HeroSection />
+        <Project />
       </div>
 </template>
 
