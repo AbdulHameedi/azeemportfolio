@@ -26,19 +26,25 @@ export default defineComponent({
 })
 </script>
 <template>
-    <main class="p-24 py-10 relative z-30 heroVideo">
-        <NavBar />
-        <div class="max-w-[90%] mb-8">
-            <p class="text-white font-extrabold text-8xl tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
-            <img class="zigzagImage" src="../assets/zigzagHero.png" alt="">
+    <main class="heroVideo relative">
+        <div class="absolute top-0 bottom-0 right-0">
+            <video ref="video" class="video" width="290" src="../assets/heroVideo.mp4" loop muted></video>
         </div>
-        <div class="bg-white w-fit rounded-[50%] p-4 mx-auto" @click="togglePlay">
+        <!-- control button -->
+        <div class="z-20 absolute top-[50%] left-[50%] bg-white w-fit rounded-[50%] p-4 mx-auto" @click="togglePlay">
             <svg v-if="isPlaying" class="rounded text-[#2F2F2F]" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path fill="currentColor" d="M14 19V5h4v14zm-8 0V5h4v14z"/></svg>
             <svg v-else class="rounded text-[#2F2F2F]" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path fill="currentColor" d="M8 19V5l11 7z"/></svg>
         </div>
+        
+        <section class="p-8 md:px-24 py-10 absolute top-0 bottom-0">
+            <NavBar />
+            <div class="max-w-[90%] mb-8">
+                <p class="text-white font-extrabold text-8xl tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
+                <img class="zigzagImage" src="../assets/zigzagHero.png" alt="">
+            </div>
+        </section> 
     </main>
-
-    <video class="absolute top-0 right-0 left-0 heroVideo" ref="video" src="../assets/heroVideo.mp4" loop muted></video>
+    
 </template>
 <style scoped>
 .zigzagImage{
@@ -53,7 +59,12 @@ export default defineComponent({
     }
 }
 .heroVideo{
-    height: calc(100vh);
+    height: calc(100vh + 250px);
+}
+.video{
+    height: calc(100vh + 250px);
+    width: 100%;
+    object-fit: cover;
 }
 </style>
 
