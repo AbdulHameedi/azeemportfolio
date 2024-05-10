@@ -49,7 +49,7 @@ export default defineComponent({
 </template>
 <style scoped>
 .zigzagImage{
-    animation: zigzag 8s ease-in-out infinite alternate;
+    animation: zigzag 4s ease-in-out infinite alternate;
     animation-delay: 4s;
 }
 @keyframes zigzag{
