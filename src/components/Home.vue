@@ -3,6 +3,7 @@ import { defineComponent } from 'vue';
 import HeroSection from './HeroSection.vue'
 import Project from './Projects.vue'
 import Contact from './Contact.vue';
+import Clients from './Clients.vue';
 
 export default defineComponent({
     data(){
@@ -13,15 +14,17 @@ export default defineComponent({
     components:{
         HeroSection,
         Project,
-        Contact
+        Contact,
+        Clients
     }
 })
 </script>
 <template>
-      <div>
+      <div class="bg-[#FFFDED]">
         <HeroSection />
         <Project />
         <Contact />
+        <Clients />
       </div>
 </template>
 

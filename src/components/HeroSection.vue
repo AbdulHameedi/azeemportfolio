@@ -29,7 +29,7 @@ export default defineComponent({
     <main class="heroVideo relative">
         <!-- videoHero -->
         <div class="absolute top-0 bottom-0 right-0">
-            <video ref="video" class="video" width="290" src="/video/heroVideo.mp4" loop muted></video>
+            <video ref="video" class="video" width="290" src="../assets/heroVideo.mp4" loop muted></video>
         </div>
         <!-- control button -->
         <div class="z-20 absolute top-[50%] left-[50%]  bg-white w-fit rounded-[50%] p-4 mx-auto" @click="togglePlay">
@@ -38,10 +38,10 @@ export default defineComponent({
         </div>
         
         <section class="p-4 md:px-24 py-10 absolute top-0 bottom-0">
-            <NavBar />
-            <div class="max-w-[90%] mb-8">
+            <NavBar/>
+            <div class="max-w-[90%] mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
                 <p class="text-white font-extrabold max-[443px]:text-3xl text-5xl md:text-8xl tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
-                <img class="zigzagImage" src="/img/zigzagHero.png" alt="">
+                <img class="zigzagImage" src="/img/zigzagHero.png" alt="zigzagHero">
             </div>
         </section> 
     </main>
