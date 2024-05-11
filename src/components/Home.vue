@@ -20,7 +20,7 @@ export default defineComponent({
 })
 </script>
 <template>
-      <div class="bg-[#FFFDED]">
+      <div class="bg-[#FFFDED] overflow-hidden">
         <HeroSection />
         <Project />
         <Contact />
