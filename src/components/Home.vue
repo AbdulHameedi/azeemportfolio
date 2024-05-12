@@ -4,6 +4,7 @@ import HeroSection from './HeroSection.vue'
 import Project from './Projects.vue'
 import Contact from './Contact.vue';
 import Clients from './Clients.vue';
+import Foot from './Foot.vue';
 
 export default defineComponent({
     data(){
@@ -15,7 +16,8 @@ export default defineComponent({
         HeroSection,
         Project,
         Contact,
-        Clients
+        Clients,
+        Foot
     }
 })
 </script>
@@ -24,7 +26,7 @@ export default defineComponent({
         <HeroSection />
         <Project />
         <Contact />
-        <Clients />
+        <Foot />
       </div>
 </template>
 
