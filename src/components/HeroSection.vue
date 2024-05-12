@@ -29,7 +29,7 @@ export default defineComponent({
     <main class="heroVideo relative">
         <!-- videoHero -->
         <div class="absolute top-0 bottom-0 right-0">
-            <video ref="video" class="video" width="290" src="../assets/heroVideo.mp4" loop muted></video>
+            <video ref="video" class="video" width="290" src="/video/heroVideo.mp4" loop muted></video>
         </div>
         <!-- control button -->
         <div class="z-20 absolute top-[50%] left-[50%]  bg-white w-fit rounded-[50%] p-4 mx-auto" @click="togglePlay">
