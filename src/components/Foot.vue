@@ -1,6 +1,7 @@
 <script>
 import { defineComponent } from 'vue';
 import Clients from './Clients.vue';
+import ContactForm from './ContactForm.vue';
 
 export default defineComponent({
     data(){
@@ -9,13 +10,14 @@ export default defineComponent({
         }
     },
     components: {
-        Clients
+        Clients,
+        ContactForm
     }
 })
 </script>
 <template>
     <section>
         <Clients />
-        
+        <ContactForm />
     </section>
 </template>
