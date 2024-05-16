@@ -25,7 +25,7 @@ export default defineComponent({
         <div class="spinner"></div>
       </div>
 
-      <!-- LANDING PAGE CONTENT -->
+      <!-- LANDING PAGE CONTENT-->
       <div v-else class="landing-page">
         <Home />
       </div>
@@ -40,7 +40,7 @@ export default defineComponent({
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
