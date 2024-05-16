@@ -41,7 +41,9 @@ export default defineComponent({
             <NavBar/>
             <div class="max-w-[90%] mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
                 <p class="text-white font-extrabold max-[443px]:text-3xl text-5xl md:text-8xl tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
-                <img class="zigzagImage" src="/img/zigzagHero.png" alt="zigzagHero">
+
+                <img class="zigzagImage max-[424px]:hidden" src="/img/zigzagHero.png" alt="zigzagHero">
+                <img  class="zigzagImage min-[425px]:hidden" src="/img/zigzagForm.png" alt="zigzagHero">
             </div>
         </section> 
     </main>

@@ -2,6 +2,7 @@
 import { defineComponent } from 'vue';
 import Clients from './Clients.vue';
 import ContactForm from './ContactForm.vue';
+import Footer from './Footer.vue';
 
 export default defineComponent({
     data(){
@@ -11,7 +12,8 @@ export default defineComponent({
     },
     components: {
         Clients,
-        ContactForm
+        ContactForm,
+        Footer
     }
 })
 </script>
@@ -19,5 +21,6 @@ export default defineComponent({
     <section>
         <Clients />
         <ContactForm />
+        <Footer />
     </section>
 </template>

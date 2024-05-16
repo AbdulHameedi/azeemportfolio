@@ -10,7 +10,7 @@ export default defineComponent({
 })
 </script>
 <template>
-<section class="py-6 pb-28 px-3">
+<section class="py-6 pb-28 px-3" data-aos="fade-left" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
     <div class="text-5xl tracking-tighter font-bold flex flex-col items-center mb-10 max-[425px]:text-3xl">
         <p>Convinced?</p>
         <p>Fill the <b class="text-[#F6DB06]">form</b> below</p>
