@@ -25,7 +25,7 @@ export default defineComponent({
         <div class="spinner"></div>
       </div>
 
-      <!-- LANDING PAGE CONTENT -->
+      <!-- LANDING PAGE CONTENT-->
       <div v-else class="landing-page">
         <Home />
       </div>
