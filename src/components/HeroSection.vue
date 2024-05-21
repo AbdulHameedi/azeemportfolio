@@ -29,7 +29,7 @@ export default defineComponent({
     <main class="heroVideo relative">
         <!-- videoHero -->
         <div class="absolute top-0 bottom-0 right-0">
-            <video ref="video" class="video" width="290" src="/heroVideo.mp4" loop muted></video>
+            <video ref="video" class="video" src="/heroVid.mp4" loop muted></video>
         </div>
         <!-- control button -->
         <div class="z-20 absolute top-[50%] left-[50%]  bg-white w-fit rounded-[50%] p-4 mx-auto" @click="togglePlay">
@@ -66,7 +66,7 @@ export default defineComponent({
 }
 .video{
     height: calc(100vh + 250px);
-    width: 100%;
+    width: 100vw;
     object-fit: initial;
 }
 @media screen and (max-width: 425px){
