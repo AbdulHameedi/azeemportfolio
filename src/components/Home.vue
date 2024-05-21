@@ -54,6 +54,7 @@ export default defineComponent({
 body{
     cursor: none;
 }
+
 *{
     font-family: "Work Sans", sans-serif;
 }
@@ -75,6 +76,11 @@ body{
     border-radius: 50%;
     z-index: 999;
     pointer-events: none;
+}
+@media screen and (max-width:425px){
+    body{
+        cursor: pointer;
+    }
 }
 </style>
 
