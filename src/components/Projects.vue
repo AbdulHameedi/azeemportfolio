@@ -14,7 +14,7 @@ export default defineComponent({
 })
 </script>
 <template>
-<main class="px-4 pt-24 md:pt-24 md:px-24 pb-14">
+<main class="px-4 pt-24 md:pt-24 md:px-[13%] pb-14">
     <p class="mb-14 font-bold text-3xl tracking-tighter" data-aos="fade-left">Projects</p>
     <section class="grid grid-cols-2 gap-5 max-[1127px]:grid-cols-1">
        <ProjectCard projectType="Deex Options" description="A Trading Platform" videoFile="/heroVideo.mp4" data-aos="fade-right" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/>

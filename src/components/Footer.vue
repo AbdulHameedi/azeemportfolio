@@ -10,7 +10,7 @@ export default defineComponent({
 })
 </script>
 <template>
-    <main class="py-6 px-4 md:px-24">
+    <main class="py-6 px-4 md:px-[13%]">
         <section class="py-7 flex justify-between items-center border-t border-t-black  text-2xl font-bold tracking-tighter max-[996px]:flex-col max-[996px]:items-start max-[996px]:gap-5 max-[375px]:text-xl">
                <div>
                    <p>All Rights Reserved <b class="font-light">©2024</b></p>

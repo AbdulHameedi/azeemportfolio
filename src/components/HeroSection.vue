@@ -4,24 +4,10 @@ import NavBar from './NavBar.vue';
 
 export default defineComponent({
     data(){
-        return{
-            videoSource: '../assets/heroVideo.mp4',
-            isPlaying: false,
-        }
+       
     },
     components:{
         NavBar
-    },
-    methods:{
-        togglePlay(){
-            const video = this.$refs.video;
-            if(this.isPlaying){
-                video.pause();
-            }else{
-                video.play();
-            }
-            this.isPlaying =!this.isPlaying
-        }
     }
 })
 </script>
@@ -31,48 +17,26 @@ export default defineComponent({
         <div class="absolute top-0 bottom-0 right-0">
             <video ref="video" class="video" src="/heroVid.mp4" loop muted></video>
         </div>
-        <!-- control button -->
-        <div class="z-20 absolute top-[50%] left-[50%]  bg-white w-fit rounded-[50%] p-4 mx-auto" @click="togglePlay">
-            <svg v-if="isPlaying" class="rounded text-[#2F2F2F] max-[425px]:w-[30px] max-[425px]:h-[30px]" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path fill="currentColor" d="M14 19V5h4v14zm-8 0V5h4v14z"/></svg>
-            <svg v-else class="rounded text-[#2F2F2F] max-[425px]:w-[30px] max-[425px]:h-[30px]" xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 24 24"><path fill="currentColor" d="M8 19V5l11 7z"/></svg>
-        </div>
-        
-        <section class="p-4 md:px-24 py-10 absolute top-0 bottom-0">
+        <section class="p-4 md:px-[13%] py-10 absolute top-0 bottom-0">
             <NavBar />
             <!-- bodyHero -->
             <div class="max-w-[90%] mb-8" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
-                <p class="text-white font-extrabold max-[443px]:text-3xl text-4xl md:text-8xl tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
-                <img class="zigzagImage max-[424px]:hidden" src="/img/zigzagHero.png" alt="zigzagHero">
-                <img  class="zigzagImage min-[425px]:hidden" src="/img/zigzagForm.png" alt="zigzagHero">
+                <p class="text-white font-extrabold text-7xl max-[950px]:text-4xl max-[398px]:text-3xl tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
+                <img class="max-[424px]:hidden" src="/img/zigzagHero.png" alt="zigzagHero">
+                <img  class="min-[425px]:hidden" src="/img/zigzagForm.png" alt="zigzagHero">
             </div>
         </section>
     </main>
     
 </template>
 <style scoped>
-.zigzagImage{
-    animation: zigzag 4s ease-in-out infinite alternate;
-    animation-delay: 4s;
-}
-@keyframes zigzag{
-    from{
-        transform: rotate(10deg);
-    }to{
-        transform: rotate(20deg);
-    }
-}
 .heroVideo{
-    height: calc(100vh + 250px);
+    height: calc(100vh);
 }
 .video{
-    height: calc(100vh + 250px);
+    height: calc(100vh);
     width: 100vw;
     object-fit: initial;
-}
-@media screen and (max-width: 425px){
-    .heroVideo,.video{
-        height: calc(80vh)
-    }
 }
 </style>
 
