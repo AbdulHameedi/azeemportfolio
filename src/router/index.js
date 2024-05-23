@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import preloader from '../views/preloader.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'preloader',
-      component: preloader
+      component: () => import('../views/preloader.vue')
     }
   ]
 })

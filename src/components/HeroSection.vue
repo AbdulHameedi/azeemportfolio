@@ -1,16 +1,3 @@
-<script>
-import { defineComponent } from 'vue';
-import NavBar from './NavBar.vue';
-
-export default defineComponent({
-    data(){
-       
-    },
-    components:{
-        NavBar
-    }
-})
-</script>
 <template>
     <main class="heroVideo relative">
         <!-- videoHero -->
@@ -29,6 +16,19 @@ export default defineComponent({
     </main>
     
 </template>
+<script>
+import { defineComponent } from 'vue';
+import NavBar from './NavBar.vue';
+
+export default defineComponent({
+    data(){
+       
+    },
+    components:{
+        NavBar
+    }
+})
+</script>
 <style scoped>
 .heroVideo{
     height: calc(100vh);

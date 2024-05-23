@@ -1,20 +1,3 @@
-<script>
-import { defineComponent } from 'vue';
-
-
-export default defineComponent({
-    data(){
-        return{
-            mobileNav: false
-        }
-    },
-    methods:{
-        mobileFunc(){
-            this.mobileNav = !this.mobileNav
-        }
-    }
-})
-</script>
 <template>
     <!-- responsive navbar -->
     <p class="z-30 top-0 h-full left-0 right-0 fixed bg-black opacity-90" v-if="mobileNav"></p>
@@ -42,5 +25,21 @@ export default defineComponent({
             </div>
     </nav>
 </template>
+<script>
+import { defineComponent } from 'vue';
 
+
+export default defineComponent({
+    data(){
+        return{
+            mobileNav: false
+        }
+    },
+    methods:{
+        mobileFunc(){
+            this.mobileNav = !this.mobileNav
+        }
+    }
+})
+</script>
 

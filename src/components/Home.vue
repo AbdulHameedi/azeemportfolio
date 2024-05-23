@@ -1,3 +1,13 @@
+<template>
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+      <div class="bg-[#FFFDED] overflow-hidden">
+        <HeroSection />
+        <Project />
+        <Contact />
+        <Foot />
+      </div>
+</template>
 <script>
 import { defineComponent } from 'vue';
 import HeroSection from './HeroSection.vue'
@@ -40,16 +50,6 @@ export default defineComponent({
     }
 })
 </script>
-<template>
-    <div class="cursor-dot" data-cursor-dot></div>
-    <div class="cursor-outline" data-cursor-outline></div>
-      <div class="bg-[#FFFDED] overflow-hidden">
-        <HeroSection />
-        <Project />
-        <Contact />
-        <Foot />
-      </div>
-</template>
 <style>
 body{
     cursor: none;
