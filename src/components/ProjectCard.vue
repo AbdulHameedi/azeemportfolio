@@ -16,7 +16,6 @@ import { defineComponent } from 'vue';
 export default defineComponent({
     data(){
         return{
-            videoSource: '../src/assets/heroVideo.mp4',
             isHovering: false
         }
     },
