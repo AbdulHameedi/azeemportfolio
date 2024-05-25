@@ -1,11 +1,16 @@
 <template>
     <section class="overflow-hidden w-full py-20">
         <div class="bg-white">
-            <div class="bg-white py-4 flex justify-between image-wrapper">
-                <img class=""src="../assets/client_1.png" alt="client_1">
-                <img class=""src="../assets/client_2.png" alt="client_2">
-                <img class=""src="../assets/client_3.png" alt="client_3">
-                <img class=""src="../assets/client_4.png" alt="client_4">
+            <div class="bg-white py-4 flex items-center gap-10 image-wrapper">
+                <img class="w-[10rem]" src="../assets/client_1.png" alt="client_1">
+                <img class="w-[10rem]" src="../assets/client_2.png" alt="client_2">
+                <img class="w-[10rem]" src="../assets/client_3.png" alt="client_3">
+                <img class="w-[10rem]" src="../assets/client_4.png" alt="client_5">
+                <img class="w-[10rem]" src="../assets/client_5.png" alt="client_6">
+                <img class="w-[10rem]" src="../assets/client_6.png" alt="client_7">
+                <img class="w-[10rem]" src="../assets/client_7.png" alt="client_4">
+                <img class="w-[10rem]" src="../assets/client_8.png" alt="client_8">
+                <img class="w-[10rem]" src="../assets/client_9.png" alt="client_9">
             </div>
         </div>
     </section>
@@ -41,7 +46,7 @@ export default defineComponent({
 </script>
 <style scoped>
 .image-wrapper{
-    animation: scrollAnimation 20s linear infinite;
+    animation: scrollAnimation 30s linear infinite;
 }
 @keyframes scrollAnimation{
     0%{

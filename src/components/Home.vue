@@ -70,8 +70,8 @@ body{
 }
 .cursor-dot, .cursor-outline{
     position: fixed;
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: -10px;
     transform: translate(-50%,-50%);
     border-radius: 50%;
     z-index: 999;

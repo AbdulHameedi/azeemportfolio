@@ -2,7 +2,7 @@
     <main class="heroVideo relative">
         <!-- videoHero -->
         <div class="absolute top-0 bottom-0 right-0">
-            <video ref="video" class="video" src="/heroVid.mp4" autoplay loop muted></video>
+            <video ref="video" class="video" src="https://res.cloudinary.com/doxshmcth/video/upload/v1/abdulazeemportfolio/heroVid_ug674z.mp4?_s=vp-2.0.2" autoplay loop muted></video>
         </div>
         <section class="p-4 md:px-[13%] py-10 absolute top-0 bottom-0">
             <NavBar />
