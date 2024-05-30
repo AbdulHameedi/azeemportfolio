@@ -11,6 +11,7 @@
                 <img class="w-[10rem]" src="../assets/client_7.png" alt="client_4">
                 <img class="w-[10rem]" src="../assets/client_8.png" alt="client_8">
                 <img class="w-[10rem]" src="../assets/client_9.png" alt="client_9">
+                
             </div>
         </div>
     </section>
