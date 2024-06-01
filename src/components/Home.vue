@@ -57,6 +57,7 @@ body{
 
 *{
     font-family: "Work Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 .cursor-dot{
     width: 5px;
