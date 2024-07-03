@@ -1,16 +1,19 @@
 <template>
-        <section class="p-4 md:px-[13%] py-10 bg-[#2F2F2F] pb-0 w-screen">
+        <section class="py-10 bg-[#2F2F2F] w-full">
             <NavBar />
-            <div class="max-w-[90%] mb-16" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
-                <p class="text-white font-extrabold leading-[1] text-[5rem] max-[950px]:text-[2.25rem] max-[398px]:text-[1.875rem] tracking-tighter">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
-                <img class="max-[424px]:hidden" src="/img/zigzagHero.png" alt="zigzagHero">
-                <img  class="min-[425px]:hidden" src="/img/zigzagForm.png" alt="zigzagHero">
-            </div>
-            <section class="flex flex-col items-center h-[550px] relative bottom-[-3rem]" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
-                <div class="bg-white w-[90%] flex flex-col items-center border border-white rounded-sm" >
-                    <video ref="video" class="h-[550px] w-full video" src="https://res.cloudinary.com/doxshmcth/video/upload/v1/abdulazeemportfolio/heroVid_ug674z.mp4?_s=vp-2.0.2" autoplay loop muted></video>
+            <div class="flex flex-col items-center">
+                <div class="w-[700px]">
+                    <div class="mb-16" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
+                        <p class="text-white font-extrabold leading-[1] tracking-tighter text-6xl text-center">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
+                        <img  class="" src="/img/zigzagForm.png" alt="zigzagHero">
+                    </div>
+                    <section class="" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
+                        <div class="">
+                            <video ref="video" class="video rounded-md" src="https://res.cloudinary.com/doxshmcth/video/upload/v1/abdulazeemportfolio/MTEEE_omedpy.mp4?_s=vp-2.0.2" autoplay loop muted></video>
+                        </div>
+                    </section>
                 </div>
-            </section>
+            </div>
         </section>
 </template>
 <script>

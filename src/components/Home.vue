@@ -2,10 +2,10 @@
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
       <div class="bg-[#FFFDED] overflow-hidden">
-        <HeroSection />
-        <Project />
-        <Contact />
-        <Foot />
+            <HeroSection />
+            <Project />
+            <Contact />
+            <Foot />
       </div>
 </template>
 <script>
@@ -38,9 +38,6 @@ export default defineComponent({
 
             cursorDot.style.left = `${posX}px`;
             cursorDot.style.top = `${posY}px`;
-
-            // cursorOutline.style.left = `${posX}px`;
-            // cursorOutline.style.top = `${posY}px`;
 
             cursorOutline.animate({
                 left: `${posX}px`,
