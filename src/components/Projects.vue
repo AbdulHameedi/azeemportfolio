@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col items-center">
-        <main class="pt-28 pb-14 w-[700px]" id="work">
+    <div class="2xl:flex flex-col items-center">
+        <main class="pt-28 pb-14 px-4 sm:px-[100px]" id="work">
             <p class="mb-14 font-bold text-3xl tracking-tighter" data-aos="fade-left">Projects</p>
-            <section class="grid grid-cols-2 gap-4 max-[1208px]:grid-cols-1">
+            <section class="grid xl:grid-cols-2 gap-[28px]">
                 <ProjectCard projectType="Deex Options" description="A Trading Platform" imgSource="/project_1.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1/abdulazeemportfolio/MTEEE_omedpy.mp4?_s=vp-2.0.2" data-aos="fade-right" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/>
                 <ProjectCard projectType="Muslim Tech Expo" description="A Muslim Tech Community" imgSource="/project_2.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1716672004/abdulazeemportfolio/projectVideo_3_zwcbwc.mp4" data-aos="fade-left" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/>
                 <ProjectCard projectType="IVC by MSSN Lagos" description="Islamic Vacation Course" imgSource="/project_3.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1716672486/abdulazeemportfolio/projectVideo_4_acjufo.mp4" data-aos="fade-right" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/>

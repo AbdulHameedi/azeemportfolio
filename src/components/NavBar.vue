@@ -9,7 +9,7 @@
         </div>
     </section>
     <!-- navbar -->
-   <nav class="flex items-center justify-between mb-16 px-10">
+   <nav class="flex items-center justify-between mb-16">
             <div class="text-white flex gap-3 items-center font-sans cursor-pointer">
                 <img src="/img/logo.png" alt="logo">
                 <p class="font-extrabold text-xl max-w-[145px]">Ayomide Akanji</p>

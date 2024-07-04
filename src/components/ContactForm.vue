@@ -10,10 +10,10 @@ export default defineComponent({
 })
 </script>
 <template>
-<section id="contact" class="py-6 pb-28 px-3" data-aos="fade-left" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
-    <div class="text-5xl tracking-tighter font-bold flex flex-col items-center mb-10 max-[425px]:text-3xl">
+<section id="contact" class="py-6 pb-28 px-3" data-aos="fade-top" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
+    <div class="text-5xl tracking-tighter font-[600] flex flex-col items-center mb-10 max-[425px]:text-3xl">
         <p>Convinced?</p>
-        <p>Fill the <b class="text-[#F6DB06]">form</b> below</p>
+        <p class="text-center">Fill the <b class="text-[#F6DB06]">form</b> below</p>
         <img src="/img/zigzagForm.png" alt="ZigzagImage">
     </div>
     <div class="flex flex-col items-center gap-4 text-2xl font-light mb-10">
