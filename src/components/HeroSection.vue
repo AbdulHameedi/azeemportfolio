@@ -1,10 +1,10 @@
 <template>
-        <section class="py-10 bg-[#2F2F2F] w-full px-[100px]">
+        <section class="py-10 bg-[#2F2F2F] w-full px-4 sm:px-[100px]">
             <NavBar />
             <div class="xl:flex flex-col items-center">
-                <div class="">
+                <div>
                     <div class="mb-[159px]" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200"  data-aos-easing="ease-in-out">
-                        <p class="text-white font-[700] leading-[90px] tracking-tighter text-[96.78px] max-w-[1300px]">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
+                        <p class="text-white font-[700] leading-[1] tracking-tighter text-[50px] lg:text-[96.78px] max-w-[1300px]">A motion designer with a <b class="text-[#F6DB06]">nack</b> for awesomeness</p>
                         <img  class="" src="/img/zigzagHero.png" alt="zigzagHero">
                     </div>
                     <div data-aos="fade-up" data-aos-duration="300" data-aos-offset="200"  data-aos-easing="ease-in-out">

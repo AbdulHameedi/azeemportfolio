@@ -11,7 +11,14 @@ export default defineComponent({
 })
 </script>
 <template>
-    <div class="">
+    <!-- <section class="px-[100px]">
+        <div class="bg-black rounded-[34px]">
+            <div>
+                <img src="/img/azeem_pic.png" alt="">
+            </div>
+        </div>
+    </section> -->
+    <!-- <div class="">
         <section class="flex flex-col px-[100px]" id="about">
             <div class="bg-black flex rounded-[34px] items-center py-[72px] gap-[80px] px-[57px]" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
                 <div class="overflow-hidden rounded-3xl">
@@ -23,6 +30,6 @@ export default defineComponent({
                 </div>
             </div>
         </section>
-    </div>
+    </div> -->
 </template>
 
