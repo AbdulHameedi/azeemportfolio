@@ -1,7 +1,7 @@
 <template>
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
-      <div class="bg-[#FFFDED] overflow-hidden">
+      <div class="bg-[#FFFDED]">
             <HeroSection />
             <Project />
             <Contact />
