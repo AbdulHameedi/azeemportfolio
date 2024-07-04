@@ -1,7 +1,7 @@
 <template>
  <div class="bg-white rounded-[34px] p-4 h-[585px] 2xl:w-[609px]">
             <div class="flex justify-between items-center">
-                <p class="font-bold text-[48px] tracking-tighter">{{ projectType }}</p>
+                <p class="font-[700] text-[48px] tracking-tighter leading-[1]">{{ projectType }}</p>
                 <svg class="text-[#F6DB06]"xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24"><path fill="currentColor" d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"/></svg>
             </div>
             <p class="text-[24px] tracking-tight mb-8 mt-[-7px]">{{description}}</p>
