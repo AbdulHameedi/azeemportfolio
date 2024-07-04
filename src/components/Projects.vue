@@ -1,5 +1,5 @@
 <template>
-    <div class="xl:flex flex-col items-center">
+    <div class="2xl:flex flex-col items-center">
         <main class="pt-28 pb-14 px-4 sm:px-[100px]" id="work">
             <p class="mb-14 font-bold text-3xl tracking-tighter" data-aos="fade-left">Projects</p>
             <section class="grid xl:grid-cols-2 gap-[28px]">
