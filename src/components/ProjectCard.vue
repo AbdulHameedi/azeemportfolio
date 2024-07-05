@@ -7,7 +7,7 @@
             <p class="text-[24px] tracking-tight mb-8 mt-[-7px]">{{description}}</p>
             <div class="projectCont h-[397px] 2xl:w-[553px] overflow-hidden rounded-[17px] bg-[#F9F9F9] flex items-center justify-center" @mouseover="playVideo" @mouseout="pauseVideo">
                 <video class="video transiton-all duration-300 hover:scale-110" ref="video" :src="videoFile" loop muted></video>
-                <img :src="imgSource" width="250px" alt="projectImages" v-show="!isHovering"></img>
+                <img :src="imgSource" alt="projectImages" v-show="!isHovering"></img>
             </div>
         </div>
 </template>
