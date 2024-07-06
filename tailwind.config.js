@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {},
+    letterSpacing:{
+      tightest: '-.075em',
+      tighter: '-.05em'
+    }
   },
   plugins: [],
 }

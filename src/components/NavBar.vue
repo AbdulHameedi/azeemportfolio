@@ -12,7 +12,7 @@
    <nav class="flex items-center justify-between mb-16">
             <div class="text-white flex gap-3 items-center font-sans cursor-pointer">
                 <img src="/img/logo.png" alt="logo">
-                <p class="font-extrabold text-xl max-w-[145px]">Ayomide Akanji</p>
+                <p class="font-[700] tracking-tightest text-[22px] max-w-[140px] leading-[1.2]">Ayomide Akanji</p>
             </div>
             <div class="gap-10 items-center text-white text-base cursor-pointer hidden md:flex">
                 <p><a href="#work">Work</a></p>
