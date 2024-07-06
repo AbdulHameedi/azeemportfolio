@@ -23,4 +23,4 @@ export default defineComponent({
         <ContactForm />
         <Footer />
     </section>
-</template>
+</template> 
