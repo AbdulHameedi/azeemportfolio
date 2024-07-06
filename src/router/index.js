@@ -6,7 +6,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'preloader',
-      component: () => import('../views/preloader.vue')
+      component: () => import('../views/preloader.vue'),
+    },
+    {
+      path: '/project',
+      name: 'Project',
+      component: ()=> import('../components/ProjectPage.vue')
     }
   ]
 })
