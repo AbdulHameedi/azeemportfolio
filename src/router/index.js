@@ -12,6 +12,16 @@ const router = createRouter({
       path: '/project',
       name: 'Project',
       component: ()=> import('../components/ProjectPage.vue')
+    },
+    {
+      path: '/mooyi',
+      name: 'Mooyi',
+      component: ()=> import('../components/Mooyi.vue')
+    },
+    {
+      path: '/mte',
+      name: 'Mte',
+      component: ()=> import('../components/Mte.vue')
     }
   ]
 })

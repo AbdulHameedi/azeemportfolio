@@ -3,7 +3,7 @@
             <NavBar />
             <div class="2xl:flex flex-col items-center">    
                 <div>
-                    <div class="mb-[149px]" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200"  data-aos-easing="ease-in-out">
+                    <div class="mb-[139px]" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200"  data-aos-easing="ease-in-out">
                         <p class="text-white font-[700] leading-[1] tracking-tightest text-[50px] lg:text-[96.78px] max-w-[1300px]">A motion designer with a <span class="text-[#F6DB06]">nack</span> for awesomeness</p>
                     </div>
                     <div class="relative" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200"  data-aos-easing="ease-in-out">
