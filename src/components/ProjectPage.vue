@@ -2,6 +2,7 @@
 import { defineComponent } from 'vue';
 import NavBar from './NavBar.vue'
 import CursorEffect from './CursorEffect.vue'
+import Footer from './Footer.vue';
 
 export default defineComponent({
     data(){
@@ -20,11 +21,12 @@ export default defineComponent({
         frameTwo: String,
         frameThree: String,
         frameFour: String,
-        frameFive: String
+        frameFive: String,
     },
     components: {
         NavBar,
-        CursorEffect
+        CursorEffect,
+        Footer
     },
 })
 </script>
@@ -33,7 +35,7 @@ export default defineComponent({
     <section>
         <section class="py-10 bg-[#2F2F2F] w-full px-4 sm:px-[100px]">
             <NavBar />
-            <div class="2xl:flex flex-col items-center">    
+            <div class="max-w-[1536px] mx-auto">    
                 <div>
                     <div class="relative mb-[4rem]" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200"  data-aos-easing="ease-in-out">
                         <video ref="video" class="video w-full rounded-[40px]" :src="bgFrame" autoplay loop muted></video>
@@ -61,8 +63,8 @@ export default defineComponent({
                 </div>
             </div>
         </section>
-        <section class="px-4 sm:px-[100px] py-[100px] bg-[#FFFDED]">
-            <div class="2xl:flex flex-col items-center">
+        <section class="px-4 sm:px-[100px] py-[100px] bg-[#FFFDED] ">
+            <div class="max-w-[1536px] mx-auto">
                 <p class="text-[58.35px] font-[600] text-[#2F2F2F] tracking-tightest mb-[32px]">Execution</p>
                 <div class="bg-white rounded-[35.54px] p-4 sm:p-[63px] mb-[32px]">
                     <p class="mb-[38px] text-[32px] font-[500] tracking-tightest">Other animations</p>
@@ -76,14 +78,37 @@ export default defineComponent({
                     </div>
                 </div>
                 <!--  -->
-                <div class="bg-white rounded-[35.54px] p-4 sm:p-[33.87px] sm:px-[63px] lg:gap-4 gap-10 grid lg:grid-cols-2 grid-col-1 items-center">
+                <div class="mb-[32px] bg-white rounded-[35.54px] p-4 sm:p-[63px] sm:px-[63px] lg:gap-4 gap-10 grid lg:grid-cols-2 grid-col-1 items-center">
                     <div>
                         <p class="font-[500] text-[33.32px]">Animating</p>
                         <p class="max-w-[350px] font-[400] text-[20.82px] leading-[28.11px]">Here we are talking about the process of animating it and bla bla bla </p>
                     </div>
                     <img class="rounded-[15px] w-full" src="/img/frame_5_mte.gif" alt="frame_5">
                 </div>
+                <!--  -->
+                <div class="bg-white p-4 rounded-[35.54px] sm:p-[63px]">
+                    <video ref="video" class="video w-full rounded-[40px]" src="https://res.cloudinary.com/doxshmcth/video/upload/v1716845866/abdulazeemportfolio/MTEEE_omedpy.mp4" autoplay loop muted></video>
+                </div>
             </div>
+        </section>
+        <section class="bg-[#2F2F2F] sm:p-[100px] p-4">
+            <div class="max-w-[1536px] mx-auto">
+                <div class="grid grid-cols-2 items-center border-b pb-6">
+                    <p class="text-[17.22px] gray-50 font-[400]">Closing Thought</p>
+                    <p class="text-white leading-[34.44px] text-[19px] font-[400]">Within two enchanted weeks, I wove a bundle of animations for Ellance Agency. As their motion sorcerer, I breathed life into pixels, casting spells that now dance across their website.</p>
+                </div>
+                <div class="grid grid-cols-2 items-center border-b py-6">
+                    <p class="text-[17.22px] gray-50 font-[400]">Tools</p>
+                    <p class="text-white text-[19px] font-[400]">After effects | Figma | Illustrator</p>
+                </div>
+                <div class="grid grid-cols-2 items-center border-b py-6">
+                    <p class="text-[17.22px] gray-50 font-[400]">Credits</p>
+                    <p class="text-white text-[19px] font-[400]">Ellance</p>
+                </div>
+            </div>
+        </section>
+        <section class="pt-14">
+            <Footer />
         </section>
     </section>
 </template>
