@@ -22,6 +22,7 @@ export default defineComponent({
         frameThree: String,
         frameFour: String,
         frameFive: String,
+        
     },
     components: {
         NavBar,
