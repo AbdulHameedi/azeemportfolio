@@ -7,6 +7,10 @@
     duration="1 month (Contract)"
     bgFrame="https://res.cloudinary.com/doxshmcth/video/upload/v1720478158/abdulazeemportfolio/MTE_2.0_VIDEO_ttqtia.mp4"
     frameOne="/img/frame_1_mooyi.gif"
+    frameTwo="/img/frame_2_mooyi.gif"
+    frameThree="/img/frame_3_mooyi.gif"
+    frameFour="/img/frame_4_mooyi.gif"
+    frameFive="/img/frame_5_mooyi.gif"
 />
 </template>
 <script>

@@ -71,11 +71,11 @@ export default defineComponent({
                     <p class="mb-[38px] text-[32px] font-[500] tracking-tightest">Other animations</p>
                     <div class="flex gap-[23px] mb-[24px]">
                         <img class="w-[65%] rounded-[15px]" :src="frameOne" alt="frame_1">
-                        <img class="w-[35%] rounded-[15px]" src="/img/frame_2_mte.gif" alt="frame_2">
+                        <img class="w-[35%] rounded-[15px]" :src="frameTwo" alt="frame_2">
                     </div>
                     <div class="flex gap-5">
-                        <img class="w-[40%] rounded-[15px]" src="https://res.cloudinary.com/doxshmcth/image/upload/v1720477236/abdulazeemportfolio/BTS_ELLANCE_12_t5xpce.gif" alt="frame_3">
-                        <img class="w-[60%] rounded-[15px]" src="/img/frame_4_mte.gif" alt="frame_4">
+                        <img class="w-[40%] rounded-[15px]" :src="frameThree" alt="frame_3">
+                        <img class="w-[60%] rounded-[15px]" :src="frameFour" alt="frame_4">
                     </div>
                 </div>
                 <!--  -->
@@ -84,7 +84,7 @@ export default defineComponent({
                         <p class="font-[500] text-[33.32px]">Animating</p>
                         <p class="max-w-[350px] font-[400] text-[20.82px] leading-[28.11px]">Here we are talking about the process of animating it and bla bla bla </p>
                     </div>
-                    <img class="rounded-[15px] w-full" src="/img/frame_5_mte.gif" alt="frame_5">
+                    <img class="rounded-[15px] w-full" :src="frameFive" alt="frame_5">
                 </div>
                 <!--  -->
                 <div class="bg-white p-4 rounded-[35.54px] sm:p-[63px]">

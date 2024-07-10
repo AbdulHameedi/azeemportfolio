@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/mte',
       name: 'Mte',
       component: ()=> import('../components/Mte.vue')
+    },
+    {
+      path: '/joinebo',
+      name: 'Joinebo',
+      component: ()=> import('../components/Join.vue')
     }
   ]
 })
