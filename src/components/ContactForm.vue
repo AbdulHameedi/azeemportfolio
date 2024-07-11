@@ -10,7 +10,7 @@ export default defineComponent({
 })
 </script>
 <template>
-<section id="contact" class="py-6 pb-28 px-3" data-aos="fade-top" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
+<section id="contact" class="py-6 pb-28 px-3 " data-aos="fade-top" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
     <div class="text-5xl tracking-tightest font-[600] flex flex-col items-center mb-10 max-[425px]:text-3xl">
         <p>Convinced?</p>
         <p class="text-center">Fill the <span class="text-[#F6DB06]">form</span> below</p>
@@ -25,7 +25,7 @@ export default defineComponent({
         <textarea class="w-[50%] max-[843px]:w-full max-[425px]:py-3 p-5 px-8 border focus:border-[#F6DB06] outline-none transiton duration-500 rounded-lg" placeholder="Message (A brief about your project)" name="" id="" cols="30" rows="10"></textarea>
     </div>
     <div class="flex flex-col items-center">
-        <button type="submit" class="bg-[#F6DB06] text-[24px] w-[307px] h-[68px] rounded-[10px] max-[425px]:px-10">Send message</button>
+        <button type="submit" class="tracking-tightest bg-[#F6DB06] text-[24px] w-[307px] h-[68px] rounded-[10px] max-[425px]:px-10">Send message</button>
     </div>
 </section>
 </template>
