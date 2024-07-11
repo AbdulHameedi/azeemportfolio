@@ -79,10 +79,10 @@ export default defineComponent({
                     </div>
                 </div>
                 <!--  -->
-                <div class="mb-[32px] bg-white rounded-[35.54px] p-4 sm:p-[63px] sm:px-[63px] lg:gap-4 gap-10 grid lg:grid-cols-2 grid-col-1 items-center">
+                <div class=" mb-[32px] bg-white rounded-[35.54px] p-4 sm:p-[63px] sm:px-[63px] lg:gap-4 gap-10 grid lg:grid-cols-2 grid-col-1 items-center">
                     <div>
-                        <p class="font-[500] text-[33.32px]">Animating</p>
-                        <p class="max-w-[350px] font-[400] text-[20.82px] leading-[28.11px]">Here we are talking about the process of animating it and bla bla bla </p>
+                        <p class="font-[500] text-[33.32px] tracking-tightest">Animating</p>
+                        <p class="max-w-[350px] font-[400] text-[20.82px] leading-[28.11px] tracking-tightest">Here we are talking about the process of animating it and bla bla bla </p>
                     </div>
                     <img class="rounded-[15px] w-full" :src="frameFive" alt="frame_5">
                 </div>
@@ -95,16 +95,16 @@ export default defineComponent({
         <section class="bg-[#2F2F2F] sm:p-[100px] p-4">
             <div class="max-w-[1536px] mx-auto">
                 <div class="grid grid-cols-2 items-center border-b pb-6">
-                    <p class="text-[17.22px] gray-50 font-[400]">Closing Thought</p>
-                    <p class="text-white leading-[34.44px] text-[19px] font-[400]">Within two enchanted weeks, I wove a bundle of animations for Ellance Agency. As their motion sorcerer, I breathed life into pixels, casting spells that now dance across their website.</p>
+                    <p class="text-[17.22px] gray-50 font-[400] tracking-tightest">Closing Thought</p>
+                    <p class="text-white leading-[34.44px] text-[19px] font-[400] tracking-tightest">Within two enchanted weeks, I wove a bundle of animations for Ellance Agency. As their motion sorcerer, I breathed life into pixels, casting spells that now dance across their website.</p>
                 </div>
                 <div class="grid grid-cols-2 items-center border-b py-6">
-                    <p class="text-[17.22px] gray-50 font-[400]">Tools</p>
-                    <p class="text-white text-[19px] font-[400]">After effects | Figma | Illustrator</p>
+                    <p class="text-[17.22px] gray-50 font-[400] tracking-tightest">Tools</p>
+                    <p class="text-white text-[19px] font-[400] tracking-tightest">After effects | Figma | Illustrator</p>
                 </div>
                 <div class="grid grid-cols-2 items-center border-b py-6">
-                    <p class="text-[17.22px] gray-50 font-[400]">Credits</p>
-                    <p class="text-white text-[19px] font-[400]">Ellance</p>
+                    <p class="text-[17.22px] gray-50 font-[400] tracking-tightest">Credits</p>
+                    <p class="text-white text-[19px] font-[400] tracking-tightest">Ellance</p>
                 </div>
             </div>
         </section>
