@@ -1,6 +1,6 @@
 <template>
     <div class="max-w-[1536px] mx-auto">
-        <main class="pt-28 pb-14 px-4 max-[1536px]:px-[100px]" id="work">
+        <main class="pt-28 pb-14 max-[640px]:px-4 max-[1536px]:px-[100px]" id="work">
             <p class="mb-14 font-[600] text-[32px] tracking-tightest" data-aos="fade-left">Projects</p>
             <section class="grid xl:grid-cols-2 gap-[28px]">
                 <router-link to="/joinebo"><ProjectCard projectType="Join Ebo" description="A booking platform" imgSource="/img/join-home.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1720304262/abdulazeemportfolio/Reel_Check_wqwwse.mp4" data-aos="fade-left" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/></router-link>

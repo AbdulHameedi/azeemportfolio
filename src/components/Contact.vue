@@ -11,7 +11,7 @@ export default defineComponent({
 })
 </script>
 <template>
-        <section class="max-[1536px]:px-[100px] px-4 max-w-[1536px] mx-auto" id="about" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
+        <section class="max-[1536px]:px-[100px] max-[640px]:px-4 max-w-[1536px] mx-auto" id="about" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
                 <div class="bg-black text-white p-4 xl:p-[59px] rounded-[34px] max-[992px]:flex-col flex items-center gap-8 xl:gap-16">
                     <div class="h-[402.45px] w-[1460px] max-[992px]:w-full overflow-hidden rounded-[34px]">
                         <img class="h-full w-full transition-all duration-300 hover:scale-110" src="/img/azeem_pic.png" alt="">
