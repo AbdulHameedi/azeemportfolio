@@ -1,11 +1,10 @@
 <template>
     <!-- responsive navbar -->
-    <!-- <p class="z-30 top-0 h-full left-0 right-0 fixed bg-black opacity-90" v-if="mobileNav" @click="mobileNav = false"></p> -->
      <section v-if="mobileNav" class="md:hidden fixed left-0 top-0 w-full h-screen bg-[#F6DB06] z-40" data-aos="fade-up" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out">
         <div class="relative flex flex-col items-center gap-6 text-white text-xl font-bold py-6 cursor-pointer">
-            <p><a>Work</a></p>
-            <p><a>About</a></p>
-            <p><a>Contact</a></p>
+            <p><a href="#work">Work</a></p>
+            <p><a href="#about">About</a></p>
+            <p><a href="contact">Contact</a></p>
             <svg @click="mobileNav = false" class="absolute top-6 right-2 text-white" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"><path fill="currentColor" d="m8.382 17.025l-1.407-1.4L10.593 12L6.975 8.4L8.382 7L12 10.615L15.593 7L17 8.4L13.382 12L17 15.625l-1.407 1.4L12 13.41z"/></svg>
         </div>
     </section>
