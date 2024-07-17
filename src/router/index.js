@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/joinebo',
       name: 'Joinebo',
       component: ()=> import('../components/Join.vue')
+    },
+    {
+      path: '/deex',
+      name: 'Deex',
+      component: ()=> import('../components/Deex.vue')
     }
   ]
 })
