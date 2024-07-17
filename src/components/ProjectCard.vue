@@ -5,7 +5,7 @@
                 <svg class="text-[#F6DB06] max-[640px]:w-[70px]"xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 24 24"><path fill="currentColor" d="M6 6v2h8.59L5 17.59L6.41 19L16 9.41V18h2V6z"/></svg>
             </div>
             <p class="text-[24px] tracking-tightest mb-8 mt-[-17px]">{{description}}</p>
-            <div class="projectCont h-[397px] 2xl:w-[553px overflow-hidden rounded-[17px] bg-[#F9F9F9] flex items-center justify-center" @mouseover="playVideo" @mouseout="pauseVideo">
+            <div class="projectCont h-[397px] overflow-hidden rounded-[17px] bg-[#F9F9F9] hover:bg-black flex items-center justify-center" @mouseover="playVideo" @mouseout="pauseVideo">
                 <video class="video transiton-all duration-300 hover:scale-110" ref="video" :src="videoFile" loop muted></video>
                 <img :src="imgSource" :class="[width]" alt="projectImages" v-show="!isHovering"></img>
             </div>
@@ -45,8 +45,8 @@ export default defineComponent({
 </script>
 <style scoped>
 .video{
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     object-fit: initial;
     display: none;
 }

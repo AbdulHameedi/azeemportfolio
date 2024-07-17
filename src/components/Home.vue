@@ -47,6 +47,7 @@ export default defineComponent({
     }
 })
 </script>
+
 <style>
 body{
     cursor: none;
