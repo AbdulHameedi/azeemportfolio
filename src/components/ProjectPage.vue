@@ -40,7 +40,8 @@ export default defineComponent({
             } else if (video.msRequestFullscreen) { // IE/Edge
                 video.msRequestFullscreen();
             }
-        }
+            video.muted = false  
+        },
     }
 });
 </script>
@@ -88,8 +89,8 @@ export default defineComponent({
                         <img class="md:w-[35%] rounded-[7px] md:rounded-[15px]" :src="frameTwo" alt="frame_2">
                     </div>
                     <div class="flex flex-col md:flex-row md:gap-5">
-                        <img class="md:w-[45%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" :src="frameThree" alt="frame_3">
-                        <img class="md:w-[55%] rounded-[7px] md:rounded-[15px]" :src="frameFour" alt="frame_4">
+                        <img class="md:w-[44%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" :src="frameThree" alt="frame_3">
+                        <img class="md:w-[56%] rounded-[7px] md:rounded-[15px] h-fit" :src="frameFour" alt="frame_4">
                     </div>
                 </div>
                 <!--  -->
