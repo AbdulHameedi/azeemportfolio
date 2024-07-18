@@ -10,6 +10,7 @@
     frameThree="/img/frame_3_deex.gif"
     frameFour="/img/frame_4_deex.gif"
     frameFive="/img/frame_5_mte.gif"
+    bodyVideo="https://res.cloudinary.com/doxshmcth/video/upload/v1721341992/abdulazeemportfolio/DEEXOPTION_TEASER_VIDEO_p0yov8.mp4"
     />
 </template>
 <script>

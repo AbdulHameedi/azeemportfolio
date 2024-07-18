@@ -10,6 +10,7 @@
     frameThree="https://res.cloudinary.com/doxshmcth/image/upload/v1720477236/abdulazeemportfolio/BTS_ELLANCE_12_t5xpce.gif"
     frameFour="/img/frame_4_mte.gif"
     frameFive="/img/frame_5_mte.gif"
+    bodyVideo="https://res.cloudinary.com/doxshmcth/video/upload/v1716845866/abdulazeemportfolio/MTEEE_omedpy.mp4"
     />
 </template>
 <script>

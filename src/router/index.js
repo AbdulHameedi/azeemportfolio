@@ -33,6 +33,11 @@ const router = createRouter({
       path: '/deex',
       name: 'Deex',
       component: ()=> import('../components/Deex.vue')
+    },
+    {
+      path: '/ellance',
+      name: 'Ellance',
+      component: ()=> import('../components/Ellance.vue')
     }
   ]
 })
