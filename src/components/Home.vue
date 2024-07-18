@@ -1,6 +1,5 @@
 <template>
-    <div class="cursor-dot" data-cursor-dot></div>
-    <div class="cursor-outline" data-cursor-outline></div>
+    <CursorEffect />
       <div class="bg-[#FFFDED] overflow-hidden">
             <HeroSection />
             <Project />
@@ -15,6 +14,7 @@ import Project from './Projects.vue'
 import Contact from './Contact.vue';
 import Clients from './Clients.vue';
 import Foot from './Foot.vue';
+import CursorEffect from './CursorEffect.vue';
 
 export default defineComponent({
     data(){
@@ -27,7 +27,8 @@ export default defineComponent({
         Project,
         Contact,
         Clients,
-        Foot
+        Foot,
+        CursorEffect
     },
     mounted(){
         const cursorDot = document.querySelector("[data-cursor-dot]");
@@ -49,37 +50,13 @@ export default defineComponent({
 </script>
 
 <style>
-body{
-    cursor: none;
-}
-
 *{
     font-family: "Work Sans", sans-serif;
     scroll-behavior: smooth;
 }
-.cursor-dot{
-    width: 5px;
-    height: 5px;
-    background-color: black;
-}
-.cursor-outline{
-    width: 30px;
-    height: 30px;
-    border: 2px solid #F6DB06;
-}
-.cursor-dot, .cursor-outline{
-    position: fixed;
-    top: -10px;
-    left: -10px;
-    transform: translate(-50%,-50%);
-    border-radius: 50%;
-    z-index: 999;
-    pointer-events: none;
-}
-@media screen and (max-width:425px){
-    body{
-        cursor: pointer;
-    }
+::selection{
+    background-color: #F6DB06;
+    color: white
 }
 </style>
 
