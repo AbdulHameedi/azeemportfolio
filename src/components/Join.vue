@@ -10,6 +10,7 @@
         frameThree="/img/frame_3_join.gif"
         frameFour="/img/frame_4_join.gif"
         frameFive="/img/frame_5_mooyi.gif"
+        bodyVideo="https://res.cloudinary.com/doxshmcth/video/upload/v1721341856/abdulazeemportfolio/JOINEBO_MOTION_hagmxf.mp4"
     />
     </template>
     <script>

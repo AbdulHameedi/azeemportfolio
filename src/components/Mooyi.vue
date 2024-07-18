@@ -1,6 +1,6 @@
 <template>
 <ProjectPage 
-    imgHead="/img/mooyi.png" 
+    imgHead="/img/mooyi_inner.png" 
     width="w-[265px]"
     industry="Talent Booking"
     typeProject="Booking platform"
@@ -11,6 +11,7 @@
     frameThree="/img/frame_3_mooyi.gif"
     frameFour="/img/frame_4_mooyi.gif"
     frameFive="/img/frame_5_mooyi.gif"
+    bodyVideo="https://res.cloudinary.com/doxshmcth/video/upload/v1716845866/abdulazeemportfolio/MTEEE_omedpy.mp4"
 />
 </template>
 <script>
