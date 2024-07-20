@@ -11,6 +11,8 @@
     frameThree="/img/frame_3_ellance.png"
     frameFour="/img/frame_4_ellance.gif"
     frameFive="/img/frame_5_ellance.gif"
+    videoII="bg-white p-4 rounded-[35.54px] sm:p-[63px] hidden"
+    animate="mb-[32px] bg-white rounded-[35.54px] p-4 sm:p-[63px] sm:px-[63px] lg:gap-4 gap-10 grid lg:grid-cols-2 grid-col-1 items-center"
     bodyVideo="https://res.cloudinary.com/doxshmcth/video/upload/v1721341467/abdulazeemportfolio/ellancevid_hytdly.mp4"
     />
 </template>
