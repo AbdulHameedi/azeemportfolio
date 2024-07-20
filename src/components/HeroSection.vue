@@ -4,7 +4,7 @@
       <div class="2xl:flex flex-col items-center">    
         <div>
           <div class="mb-[50px] md:mb-[139px]" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200" data-aos-easing="ease-in-out">
-            <p class="text-white font-[700] leading-[1] tracking-tightest text-[50px] lg:text-[96.78px] max-w-[1300px]">A motion designer with a <span class="text-[#F6DB06]">nack</span> for awesomeness</p>
+            <p class="text-white font-[700] leading-[1] tracking-tightest text-[50px] lg:text-[96.78px] max-w-[1300px]">A motion designer with a <span class="text-[#F6DB06]">knack</span> for awesomeness</p>
           </div>
           <div class="relative" data-aos="fade-up" data-aos-duration="300" data-aos-offset="200" data-aos-easing="ease-in-out">
             <video ref="video" class="video w-full rounded-[15px] md:rounded-[40px]" src="https://res.cloudinary.com/doxshmcth/video/upload/v1721462704/abdulazeemportfolio/Reel_to_preview_kzs5ef.mp4" autoplay loop muted></video>
