@@ -6,6 +6,7 @@
     typeProject="Promotional Video" 
     duration="2 weeks"
     bgFrame="https://res.cloudinary.com/doxshmcth/video/upload/v1721340450/abdulazeemportfolio/ellance_zmqfgk.mp4"
+    bgLink="https://res.cloudinary.com/doxshmcth/video/upload/v1721340450/abdulazeemportfolio/ellance_zmqfgk.mp4"
     frameOne="https://res.cloudinary.com/doxshmcth/image/upload/v1720219598/abdulazeemportfolio/reel_xnsvrs.gif"
     frameTwo="/img/frame_2_ellance.gif"
     frameThree="/img/frame_3_ellance.png"
