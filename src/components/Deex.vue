@@ -5,6 +5,7 @@
     typeProject="Contract" 
     duration="Retainer"
     bgFrame="https://res.cloudinary.com/doxshmcth/video/upload/v1721258894/abdulazeemportfolio/bg-deex_ydfi0f.mp4"
+    bgLink="https://res.cloudinary.com/doxshmcth/video/upload/v1721258894/abdulazeemportfolio/bg-deex_ydfi0f.mp4"
     frameOne="/img/frame_1_deex.gif"
     frameTwo="/img/frame_2_deex.gif"
     frameThree="/img/frame_3_deex.gif"
