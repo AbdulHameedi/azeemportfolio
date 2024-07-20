@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  base: '/https://azeemportfolio-psi.vercel.app/',
+  base: '/https://ayomideakanji.com/',
   routes: [
     {
       path: '/',
