@@ -87,9 +87,9 @@ export default defineComponent({
         </section>
         <section class="px-4 sm:px-[100px] py-[100px] bg-[#FFFDED] ">
             <div class="max-w-[1536px] mx-auto">
-                <p class="text-[58.35px] font-[600] text-[#2F2F2F] tracking-tightest mb-[32px]">Execution</p>
+                <p class="md:text-[58.35px] text-[40.32px] font-[600] text-[#2F2F2F] tracking-tightest mb-[32px]">Execution</p>
                 <div class="bg-white rounded-[35.54px] p-4 sm:p-[63px] mb-[32px]">
-                    <p class="mb-[38px] text-[32px] font-[500] tracking-tightest">Other animations</p>
+                    <p class="mb-[38px] md:text-[32px] text-[33.32px] font-[500] tracking-tightest">Other animations</p>
                     <div class="flex flex-col md:flex-row md:gap-[23px] mb-[24px]">
                         <img class="md:w-[65%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" :src="frameOne" alt="frame_1">
                         <img class="md:w-[35%] rounded-[7px] md:rounded-[15px]" :src="frameTwo" alt="frame_2">
