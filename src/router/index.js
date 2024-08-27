@@ -38,6 +38,11 @@ const router = createRouter({
       path: '/ellance',
       name: 'Ellance',
       component: ()=> import('../components/Ellance.vue')
+    },
+    {
+      path: '/playground',
+      name: 'Playground',
+      component: ()=> import('../components/Playground.vue')
     }
   ]
 })
