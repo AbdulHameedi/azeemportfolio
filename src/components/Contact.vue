@@ -18,7 +18,7 @@ export default defineComponent({
                     </div>
                     <div class="2xl:pr-20">
                         <p class="text-[40px] xl:text-[73.49px] 2xl:text-[96.49px]  mb-2 max-w-[600px] leading-[0.9] tracking-tighter">I am <span class="font-[600] text-[#F6DB06]">Ayomide Akanji</span></p>
-                        <p class="text-[19.44px] font-[400] mb-8 tracking-tighter">or you can call me <span class="text-[#F6DB06]">Abdulazeem</span>. I am a motion designer with 3+ years of experience and a keen interest in story-telling and captivating motion related to various industries.  I am well-versed in ideating, illustrating, storyboarding, and executing ideas for the final piece.</p>
+                        <p class="text-[19.44px] font-[400] mb-8 tracking-tighter">or you can call me <span class="text-[#F6DB06]">Abdulazeem</span>. I am a motion designer with 5+ years of experience and a keen interest in story-telling and captivating motion related to various industries.  I am well-versed in ideating, illustrating, storyboarding, and executing ideas for the final piece.</p>
                         <p class="text-[19.44px] font-[400] tracking-tighter">I have had the pleasure of working with Proceipt UK,﻿  Obiex, One Liquidity, Teksight Edge and Enterscale. Feel free to contact me at <a class="text-[#F6DB06]" target="_blank" href="mailto:me@ayomideakanji.com">me@ayomideakanji.com</a>. You can download my resume <a href="https://drive.google.com/file/d/1nc1hLL7qSaXsr_NA1DfjdcOEtHN1qRJx/view?usp=sharing" download="ayomide_resume" class="text-[#F6DB06]">here</a>.</p>
                     </div>
                 </div>
