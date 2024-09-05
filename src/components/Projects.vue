@@ -14,7 +14,11 @@
                 <router-link to="/mooyi"><ProjectCard projectType="Mooyi Reward" width="w-[387px]" description="A marketing tool" imgSource="/img/mooyi_home.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1721461812/abdulazeemportfolio/Mooyi_preview_uekpz5.mp4" data-aos="fade-right" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/></router-link>
                 <router-link to="/deex"><ProjectCard projectType="Deex Options" description="A Trading Platform" imgSource="/project_1.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1721462843/abdulazeemportfolio/Deex_Preview_vqgdzx.mp4" data-aos="fade-right" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/></router-link>
                 <router-link to="/ellance"><ProjectCard projectType="Ellance" description="A Design Agency" imgSource="/project_5.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1721341467/abdulazeemportfolio/ellancevid_hytdly.mp4" data-aos="fade-right" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/></router-link>
-                <router-link to="/"><ProjectCard projectType="Random Stuffs" description="Just me playing around" imgSource="/project_6.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1721462030/abdulazeemportfolio/Random_Preview_znhl4b.mp4" data-aos="fade-left" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/></router-link>
+                <!-- <router-link to="/playground"> -->
+                    <a href="https://bit.ly/Ayomide_Video_Bank">
+                        <ProjectCard projectType="Random Stuffs" description="Just me playing around" imgSource="/project_6.png" videoFile="https://res.cloudinary.com/doxshmcth/video/upload/v1721462030/abdulazeemportfolio/Random_Preview_znhl4b.mp4" data-aos="fade-left" data-aos-duration="800" data-aos-offset="200"  data-aos-easing="ease-in-out"/>
+                    </a>
+                <!-- </router-link> -->
             </section>
         </main>
     </div>
