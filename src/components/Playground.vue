@@ -59,8 +59,9 @@ export default defineComponent({
                 <div class="bg-white rounded-[35.54px] p-4 sm:p-[63px] mb-[32px]">
                     <p class="mb-[38px] md:text-[32px] text-[33.32px] font-[500] tracking-tightest">Other animations</p>
                     <div class="flex flex-col md:flex-row md:gap-[23px] mb-[24px]">
-                        <img class="md:w-[65%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="/img/frame_1_mooyi.gif" alt="frame_1">
-                        <img class="md:w-[35%] rounded-[7px] md:rounded-[15px]" src="/img/frame_2_mooyi.gif" alt="frame_2">
+                        <video ref="video" class="md:w-[65%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4" autoplay loop muted></video>
+                        <img class="md:w-[35%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="/img/frame_1_mooyi.gif" alt="frame_1">
+                        <!--  -->
                     </div>
                     <div class="flex flex-col md:flex-row md:gap-5">
                         <video ref="video" class="md:w-[44%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725526885/7_THE_WEALTHY_ISLET_VIdeEO_byjf9j.mp4" autoplay loop muted></video>
