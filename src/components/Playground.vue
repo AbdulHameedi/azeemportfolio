@@ -37,20 +37,6 @@ export default defineComponent({
                         <div class="mb-[31px]">
                             <img class="w-[330px]" src="/img/playground-img.jpg" alt="img-head">
                         </div>
-                        <div class="flex md:items-center flex-col md:flex-row text-[16px] md:gap-[7rem] gap-10">
-                            <div>
-                                <p class="gray-50">Industry</p>
-                                <p class="text-white">Growth</p>
-                            </div>
-                            <div>
-                                <p class="gray-50">Project type</p>
-                                <p class="text-white">Contract</p>
-                            </div>
-                            <div>
-                                <p class="gray-50">Project duration</p>
-                                <p class="text-white">Retainer</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
