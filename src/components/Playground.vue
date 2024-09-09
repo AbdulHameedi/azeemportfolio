@@ -3,7 +3,6 @@ import { defineComponent } from 'vue';
 import NavBar from './NavBar.vue';
 import CursorEffect from './CursorEffect.vue';
 import Footer from './Footer.vue';
-import PlaygroundCard from './PlaygroundCard.vue';
 
 export default defineComponent({
     data() {
@@ -44,7 +43,7 @@ export default defineComponent({
         <section class="px-4 sm:px-[100px] py-[100px] bg-[#FFFDED]">
             <div class="max-w-[1536px] mx-auto">
                 <p class="md:text-[58.35px] text-[40.32px] font-[600] text-[#2F2F2F] tracking-tightest mb-[32px]">Execution</p>
-                <div class="bg-white rounded-[35.54px] p-4 sm:p-[63px] mb-[32px]">
+                <div class="bg-white rounded-[35.54px] p-4 md:p-[63px] mb-[32px]">
                     <div class="flex flex-col md:flex-row md:gap-[23px] mb-[24px]">
                          <!-- https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4 -->
                         <video ref="video" class="md:w-[65%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4" autoplay loop muted></video>
@@ -57,7 +56,7 @@ export default defineComponent({
                     </div>
                 </div> 
                 <!--  -->
-                <div class="bg-white rounded-[35.54px] p-4 sm:p-[63px] mb-[32px]">
+                <div class="bg-white rounded-[35.54px] p-4 md:p-[63px] mb-[32px]">
                     <div class="flex flex-col md:flex-row md:gap-[23px] mb-[24px]">
                         <!-- "https://res.cloudinary.com/dt7jocfde/video/upload/v1725577319/8_EHINGBETI_SOCIAL_ehjtro.mp4 -->
                         <video ref="video" class="md:w-[65%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725662389/2_EAGLELINE_CONSULT_FINAL_RENDER_111_ddsqid.mp4" autoplay loop muted></video>
