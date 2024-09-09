@@ -3,7 +3,6 @@ import { defineComponent } from 'vue';
 import NavBar from './NavBar.vue';
 import CursorEffect from './CursorEffect.vue';
 import Footer from './Footer.vue';
-import PlaygroundCard from './PlaygroundCard.vue';
 
 export default defineComponent({
     data() {
@@ -15,7 +14,6 @@ export default defineComponent({
         NavBar,
         CursorEffect,
         Footer,
-        PlaygroundCard
     }
 });
 </script>
@@ -41,37 +39,34 @@ export default defineComponent({
                 </div>
             </div>
         </section>
+        <!--  -->
         <section class="px-4 sm:px-[100px] py-[100px] bg-[#FFFDED]">
             <div class="max-w-[1536px] mx-auto">
                 <p class="md:text-[58.35px] text-[40.32px] font-[600] text-[#2F2F2F] tracking-tightest mb-[32px]">Execution</p>
-                <!-- <div class="bg-white rounded-[35.54px] p-4 sm:p-[63px] mb-[32px]">
-                    <p class="mb-[38px] md:text-[32px] text-[33.32px] font-[500] tracking-tightest">Other animations</p>
+                <div class="bg-white rounded-[35.54px] p-4 md:p-[63px] mb-[32px]">
                     <div class="flex flex-col md:flex-row md:gap-[23px] mb-[24px]">
-                        <video ref="video" class="md:w-[65%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4" autoplay loop muted></video>
+                         <!-- https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4 -->
+                        <video ref="video" class="md:w-[65%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4" autoplay loop muted></video>
                         <video ref="video" class="md:w-[35%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725576934/01_Barber_shop_Tornado_axx5zw.mp4" autoplay loop muted></video>
                     </div>
                     <div class="flex flex-col md:flex-row md:gap-5">
-                        <video ref="video" class="md:w-[44%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725526885/7_THE_WEALTHY_ISLET_VIdeEO_byjf9j.mp4" autoplay loop muted></video>
-                        <video ref="video" class="md:w-[56%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725491425/0_TECNO_VAMON_30_X_ATR_mgtj0t.mp4" autoplay loop muted></video>
+                        <!-- https://res.cloudinary.com/dt7jocfde/video/upload/v1725526885/7_THE_WEALTHY_ISLET_VIdeEO_byjf9j.mp4 -->
+                        <video ref="video" class="md:w-[44%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725491425/0_TECNO_VAMON_30_X_ATR_mgtj0t.mp4" autoplay loop muted></video>
+                        <video ref="video" class="md:w-[56%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4" autoplay loop muted></video>
                     </div>
-                </div> -->
+                </div> 
                 <!--  -->
-                <!-- <div class="bg-white rounded-[35.54px] p-4 sm:p-[63px] mb-[32px]">
+                <div class="bg-white rounded-[35.54px] p-4 md:p-[63px] mb-[32px]">
                     <div class="flex flex-col md:flex-row md:gap-[23px] mb-[24px]">
-                        <video ref="video" class="md:w-[65%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725577319/8_EHINGBETI_SOCIAL_ehjtro.mp4" autoplay loop muted></video>
+                        <!-- "https://res.cloudinary.com/dt7jocfde/video/upload/v1725577319/8_EHINGBETI_SOCIAL_ehjtro.mp4 -->
+                        <video ref="video" class="md:w-[65%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725662389/2_EAGLELINE_CONSULT_FINAL_RENDER_111_ddsqid.mp4" autoplay loop muted></video>
                         <video ref="video" class="md:w-[35%] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/doxshmcth/video/upload/v1720304106/abdulazeemportfolio/MTE_preview_knjq7g.mp4" autoplay loop muted></video>
                     </div>
                     <div class="flex flex-col md:flex-row md:gap-5">
                         <video ref="video" class="md:w-[44%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="https://res.cloudinary.com/doxshmcth/video/upload/v1721382186/abdulazeemportfolio/Ayomide_Akanji_Reel_zkn3ub.mp4" autoplay loop muted></video>
                         <video ref="video" class="md:w-[56%] rounded-[7px] md:rounded-[15px] mb-6 md:mb-0" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725491425/0_TECNO_VAMON_30_X_ATR_mgtj0t.mp4" autoplay loop muted></video>
                     </div>
-                </div> -->
-                <!--  -->
-                <PlaygroundCard srcVideo="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4" />
-                <PlaygroundCard srcVideo="https://res.cloudinary.com/dt7jocfde/video/upload/v1725491425/0_TECNO_VAMON_30_X_ATR_mgtj0t.mp4" />
-                <PlaygroundCard srcVideo="https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4" />
-                <PlaygroundCard srcVideo="https://res.cloudinary.com/dt7jocfde/video/upload/v1725662389/2_EAGLELINE_CONSULT_FINAL_RENDER_111_ddsqid.mp4" />
-                <PlaygroundCard srcVideo="https://res.cloudinary.com/dt7jocfde/video/upload/v1725662389/2_EAGLELINE_CONSULT_FINAL_RENDER_111_ddsqid.mp4" />
+                </div> 
             </div>
         </section>
         <section class="pt-14">
