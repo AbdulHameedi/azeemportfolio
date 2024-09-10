@@ -45,31 +45,15 @@ export default defineComponent({
                 <p class="md:text-[58.35px] text-[40.32px] font-[600] text-[#2F2F2F] tracking-tightest mb-[32px]">Execution</p>
                 <div class="bg-white rounded-[35.54px] p-4 md:p-[63px] mb-[32px]">
                     <div class="flex flex-col md:flex-row md:gap-[23px] gap-[10px]  mb-[24px]">
-                        <div class="relative md:w-[65%] h-[500px]">
-                            <video ref="video" class="object-cover w-full h-[500px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4" autoplay loop muted></video>
-                            <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4">
-                                <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
-                            </a>
-                        </div>
-                        <div class="relative md:w-[35%] h-[500px]">
-                            <video ref="video" class="object-cover h-[500px] w-full rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725576934/01_Barber_shop_Tornado_axx5zw.mp4" autoplay loop muted></video>
-                            <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1725576934/01_Barber_shop_Tornado_axx5zw.mp4">
-                                <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="bg-white rounded-[35.54px] p-4 md:p-[63px] mb-[32px]">
-                    <div class="flex flex-col md:flex-row md:gap-[23px] gap-[10px]  mb-[24px]">
                          <!-- https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4 -->
-                        <div class="relative h-[500px] md:w-[65%]">
-                            <video ref="video" class=" object-cover w-full h-[500px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4" autoplay loop muted></video>
+                        <div class="relative h-[400px] md:w-[65%]">
+                            <video ref="video" class=" object-cover w-full h-[400px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4" autoplay loop muted></video>
                             <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1725661362/00_Karafin_Tornado_Qatar_l4ljbx.mp4">
                                 <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
                             </a>
                         </div>
-                        <div class="relative h-[500px] md:w-[35%]">
-                            <video ref="video" class=" object-cover w-full h-[500px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725576934/01_Barber_shop_Tornado_axx5zw.mp4" autoplay loop muted></video>
+                        <div class="relative h-[400px] md:w-[35%]">
+                            <video ref="video" class=" object-cover w-full h-[400px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725576934/01_Barber_shop_Tornado_axx5zw.mp4" autoplay loop muted></video>
                             <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1725576934/01_Barber_shop_Tornado_axx5zw.mp4">
                                 <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
                             </a>
@@ -77,14 +61,14 @@ export default defineComponent({
                     </div>
                     <div class="flex flex-col md:flex-row md:gap-5">
                         <!-- https://res.cloudinary.com/dt7jocfde/video/upload/v1725526885/7_THE_WEALTHY_ISLET_VIdeEO_byjf9j.mp4 -->
-                        <div class="relative h-[500px] md:w-[44%]">
-                            <video ref="video" class=" object-cover w-full h-[500px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725491425/0_TECNO_VAMON_30_X_ATR_mgtj0t.mp4" autoplay loop muted></video>
+                        <div class="relative h-[400px] md:w-[44%]">
+                            <video ref="video" class=" object-cover w-full h-[400px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725491425/0_TECNO_VAMON_30_X_ATR_mgtj0t.mp4" autoplay loop muted></video>
                             <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1725491425/0_TECNO_VAMON_30_X_ATR_mgtj0t.mp4">
                                 <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
                             </a>
                         </div>
-                        <div class="relative h-[500px] md:w-[56%]">
-                            <video ref="video" class=" object-cover w-full h-[500px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4" autoplay loop muted></video>
+                        <div class="relative h-[400px] md:w-[56%]">
+                            <video ref="video" class=" object-cover w-full h-[400px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4" autoplay loop muted></video>
                             <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1724802325/Send_App_Flutterwave_Campaign_SIBLINGS_PERSPECTIVE1_uwydke.mp4">
                                 <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
                             </a>
@@ -95,15 +79,15 @@ export default defineComponent({
                 <div class="bg-white rounded-[35.54px] p-4 md:p-[63px] mb-[32px]">
                     <div class="flex flex-col md:flex-row md:gap-[23px] gap-[10px]  mb-[24px]">
                         <!-- "https://res.cloudinary.com/dt7jocfde/video/upload/v1725577319/8_EHINGBETI_SOCIAL_ehjtro.mp4 -->
-                        <div class="relative h-[500px] md:w-[65%]">
-                            <video ref="video" class="object-cover w-full h-[500px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725662389/2_EAGLELINE_CONSULT_FINAL_RENDER_111_ddsqid.mp4" autoplay loop muted></video>
+                        <div class="relative h-[400px] md:w-[65%]">
+                            <video ref="video" class="object-cover w-full h-[400px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725662389/2_EAGLELINE_CONSULT_FINAL_RENDER_111_ddsqid.mp4" autoplay loop muted></video>
                             <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1725662389/2_EAGLELINE_CONSULT_FINAL_RENDER_111_ddsqid.mp4">
                                 <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
                             </a>
                         </div>
-                        <div class="relative h-[500px] md:w-[35%]">
-                            <video ref="video" class="object-cover w-full h-[500px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/doxshmcth/video/upload/v1720304106/abdulazeemportfolio/MTE_preview_knjq7g.mp4" autoplay loop muted></video>
-                            <a href="https://res.cloudinary.com/doxshmcth/video/upload/v1720304106/abdulazeemportfolio/MTE_preview_knjq7g.mp4">
+                        <div class="relative h-[400px] md:w-[35%]">
+                            <video ref="video" class="object-cover w-full h-[400px] rounded-[7px] md:rounded-[15px]" src="https://res.cloudinary.com/dt7jocfde/video/upload/v1725983700/02_Tornado_Tower_yxnu65.mp4" autoplay loop muted></video>
+                            <a href="https://res.cloudinary.com/dt7jocfde/video/upload/v1725983700/02_Tornado_Tower_yxnu65.mp4">
                                 <svg class="absolute left-[24px] md:left-[44px] bottom-[23px] md:bottom-[43px]" width="51" height="51" viewBox="0 0 51 51" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25.5 0C11.4169 0 0 11.4167 0 25.5C0 39.5833 11.4169 51 25.5 51C39.5831 51 51 39.5833 51 25.5C51 11.4167 39.5831 0 25.5 0ZM34.3134 26.8517L21.5634 34.8204C21.3054 34.9815 21.0121 35.0625 20.7188 35.0625C20.453 35.0625 20.1868 34.9964 19.946 34.8625C19.4394 34.5816 19.125 34.0485 19.125 33.4688V17.5312C19.125 16.9515 19.4394 16.4184 19.946 16.1375C20.4526 15.855 21.0721 15.8722 21.5634 16.1796L34.3134 24.1483C34.7792 24.4402 35.0625 24.9507 35.0625 25.5C35.0625 26.0493 34.7792 26.5599 34.3134 26.8517Z" fill="white"/></svg>
                             </a>
                         </div>
